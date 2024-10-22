@@ -4,18 +4,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: rgb(242, 193, 225); /* Background color */
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: whitesmoke; /* Background color for container */
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px palevioletred;
     width: 90%;
     max-width: 400px;
 }
+
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
@@ -23,5 +24,57 @@ h1 {
     margin-bottom: 20px;
     color: #4a4a4a; /* Header color */
 }
+.password input {
+    display: block;
+    border: none;
+    margin: 5px 0;
+    width: 380px;
+    height: 20px;
+    box-shadow: 0 2px 3px rgb(183, 48, 93);
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
 
 /* Add more styles here as needed */
+.button-generate {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-generate:hover {
+    background-color: palevioletred;
+}
+
+.button-copy {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-copy:hover {
+    background-color: green;
+}
+.output {
+    margin-top: 15px;
+    font-size: 15px ;
+    border: 2px solid plum;
+    padding: 10px;
+}
+
+
